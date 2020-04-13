@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	max-height: 100vh;
+}
+
+body{
+	margin: 0px;
+	background-color: #ffffff;
+	height:100vh;
+}
+
+header{
+	display: block;
+	background-color: rgb(32,32,32);
+	background-position: fixed;
+	border-bottom-right-radius: 20px;
+	border: black 1px solid;
+	border-top: 0px;
+	position: fixed;
+	width: 100%;
+}
+
+header .logo{
+	padding-left: 5px;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+header .sitename{
+	line-height: 70px;
+	float: left;
+	font-size: 40px;
+	font-family: "Serif";
+	padding-left: 3%;
+	color: white;
+}
+header .navbar{
+	float: right;
+	margin-right: 10px;
+}
+
+header .navbar a{
+	display: inline;
+	color: white;
+	font-family: 'helvetica';
+	line-height: 70px;
+	padding: 15px 20px;
+	margin: 4px;
+	text-decoration: none;
+	border-radius: 15px;
+	border: gray 1px solid;
+}
+
+header .navbar a:hover{
+	color: red;
+}
+header .navbar a:active{
+	color: blue;
+}
+
+aside{
+	background-color: rgb(211,211,211, 0.5);
+	display: inline-block;
+	padding-top: 90px;
+	padding-left: 1%;
+	height: 500px;
+	width: 15%;
+	border-bottom-right-radius: 20px;
+	border: #D3D3D3 1% solid;
+	border-left: 0px;
+	float:left;
+}
+
+aside .sidebar a{
+	display: list-item;
+	margin-left: 20%;
+	padding:3px;
+	text-decoration: none;
+	list-style-type: circle;
+}
+
+section{
+		background-color: white;
+		display: inline-block;
+		width: 84%;
+		height: 100vh;
+		margin-top: 77px;
+		text-align: center;
+}
+
+section .myform{
+	margin-top: 10px;
+	display: block;
+}
+
+section .myform li{
+		margin: 5px;
+		list-style-type: none;
+}
+
+section .myform button{
+		margin: 5px;
+}
